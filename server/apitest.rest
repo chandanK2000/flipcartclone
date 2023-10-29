@@ -1,0 +1,15 @@
+
+POST http://localhost:3333/productlist
+Content-Type: application/json
+
+{
+  "pname": "coconut oil",
+  "pprice": 200,
+  "pqty": 110,
+  "pdetails": "This coconut  is not  good",
+  "pseller": "rakesh shaw"
+}
+
+
+###
+GET http://localhost:8000/products
